@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SextoComponente } from "./sexto-componente/sexto-componente";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [SextoComponente],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
